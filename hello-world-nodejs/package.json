@@ -1,18 +1,16 @@
 {
-    "name": "nodejs-hello-world",
-    "version": "1.0.0",
-    "description": "nodejs-hello-world",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Ranga",
-    "dependencies": {
-      "express": "^4.17.1"
-    },
-    "devDependencies": {
-      "webpack": "^4.41.5"
-    },
-    "license": "MIT",
-    "repository": {}
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Sunit Parekh <sunitp@thoughtworks.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "jest": "25.3.0"
   }
+}
