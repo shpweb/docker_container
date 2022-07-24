@@ -12,7 +12,7 @@ var os = require("os");
 var hostname = os.hostname();
 
 app.get('/', (req, res) => {
-  res.send('Hello World !!! </br></br>' + hostname );
+  res.send('Hello world !!! </br></br>' + hostname );
 });
 
 app.listen(PORT, HOST);
